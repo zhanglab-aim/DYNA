@@ -11,8 +11,8 @@
 #SBATCH -o /common/zhanh/out_gpu
 #SBATCH -e /common/zhanh/err_gpu
 source /common/zhanh/anaconda3/etc/profile.d/conda.sh
-conda activate DNA_LORA
-/common/zhanh/anaconda3/envs/DNA_LORA/bin/python
+conda activate dna_lora
+/common/zhanh/anaconda3/envs/dna_lora/bin/python
 python \
 VEP_nt_siamese_nt.py \
 --index 3 \
