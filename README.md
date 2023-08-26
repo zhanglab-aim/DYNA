@@ -5,7 +5,7 @@
 conda env create -f dna_llm.yml
 </pre>
 
-## Fine-tuning the OPT-125M model on all datasets
+## Fine-tuning the NT or bert-based-uncased model on the cm_spair dataset
 <pre>
 sbatch test_gpu.sh
 </pre>
