@@ -1,4 +1,5 @@
-# ![DYNA](figures/dyna_logo.png) DYNA: Disease-Specific Language Model for Variant Pathogenicity
+# <img src="figures/dyna_logo.png" alt="DYNA Logo" width="50"/> DYNA: Disease-Specific Language Model for Variant Pathogenicity
+
 
 Clinical variant classification of pathogenic versus benign genetic variants remains a challenge in clinical genetics. Recently, the proposition of genomic foundation models has improved the generic variant effect prediction (VEP) accuracy via weakly-supervised or unsupervised training. However, these VEPs are not disease-specific, limiting their adaptation at the point of care. To address this problem, we propose DYNA: Disease-specificity fine-tuning via a Siamese neural network broadly applicable to all genomic foundation models for more effective variant effect predictions in disease-specific contexts.
 
@@ -24,10 +25,6 @@ We evaluate DYNA in two distinct disease-relevant tasks. For coding VEPs, we foc
 
 4. **dyna_model/**:
     - This link contains 2 DYNA fine-tuned checkpoints. See [Google Drive](https://drive.google.com/drive/folders/16N7WpiiSmP1TkGfaIC64vOvPQMv2siYy?usp=sharing). Replace `/path/to/your/local/model` with the actual file path to your saved model on your local system. 
-
-## Setting up Environment
-```sh
-conda env create -f dna_llm.yml
 
 
 ## Setting up environment 
