@@ -10,12 +10,12 @@ Clinical variant classification of pathogenic versus benign genetic variants rem
 
 We evaluate DYNA in two distinct disease-relevant tasks. For coding VEPs, we focus on various cardiovascular diseases, where gene-disease relationships of loss-of-function vs. gain-of-function dictate disease-specific VEP. For non-coding VEPs, we apply DYNA to an essential post-transcriptional regulatory axis of RNA splicing, the most common non-coding pathogenic mechanism in established clinical VEP guidelines. In both cases, DYNA fine-tunes various pre-trained genomic foundation models on small, rare variant sets. The DYNA fine-tuned models show superior performance in the held-out rare variant testing set and are further replicated in large, clinically-relevant variant annotations in ClinVAR. Thus, DYNA offers a potent disease-specific variant effect prediction method, excelling in intra-gene generalization and generalization to unseen genetic variants, making it particularly valuable for disease associations and clinical applicability.
 
-## Framework
+## 📖 Framework
 <p align="center">
 <img src="/figures/dyna_framework_v3.png" alt="The framework" style="width:20cm; height:auto;"/>
 </p>
 
-## Repository Organization
+## 📖 Repository Organization
 
 1. **dyna_data/**:
     - For coding variant effect predictions (VEPs), our approach centers on clinical variant sets specifically related to inherited cardiomyopathies (CM) and arrhythmias (ARM). We utilize a pre-compiled dataset comprised of rare missense pathogenic and benign variants, categorized using a cohort-based approach for diseases such as cardiomyopathy and arrhythmias, as detailed in the previous report by Zhang et al. ClinVar CM and ARM datasets include all missense variants in CM and ARM, respectively, are extracted from ClinVar (Landrum et al.). 
@@ -32,12 +32,12 @@ We evaluate DYNA in two distinct disease-relevant tasks. For coding VEPs, we foc
     - This link contains 2 DYNA fine-tuned checkpoints. See [Google Drive](https://drive.google.com/drive/folders/16N7WpiiSmP1TkGfaIC64vOvPQMv2siYy?usp=sharing). Replace `/path/to/your/local/model` with the actual file path to your saved model on your local system. 
 
 
-## Setting up environment 
+## 📖 Setting up environment 
 <pre>
 conda env create -f dna_llm.yml
 </pre>
 
-## Fine-tuning the DYNA model
+## 📖 Fine-tuning the DYNA model
 <pre>
 sbatch scripts/test_gpu.sh
 </pre>
