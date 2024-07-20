@@ -41,3 +41,4 @@ conda env create -f dna_llm.yml
 <pre>
 sbatch scripts/test_gpu.sh
 </pre>
+The fine-tune experiments were conducted using 1-4 Nvidia A100 GPUs.
