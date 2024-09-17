@@ -34,7 +34,17 @@ We evaluate DYNA in two distinct disease-relevant tasks. For coding VEPs, we foc
 
 ## 🛠️ Setting up environment 
 <pre>
-conda env create -f dna_llm.yml
+# Create the dyna environment
+conda create --name temp_dyna python=3.8
+
+# Activate the environment
+conda activate temp_dyna
+
+# Install the pip packages
+pip install -r requirements.txt
+    
+# You can add the other pip packages from the dyna.yml file one by one if needed
+
 </pre>
 
 ## 🚀 Fine-tuning the DYNA model
