@@ -1,6 +1,7 @@
 # <img src="figures/dyna_logo.png" alt="DYNA Logo" width="50"/> DYNA: Disease-Specific Language Model for Variant Pathogenicity
 
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://github.com/zhanglab-aim/DYNA)
+[![DOI](https://zenodo.org/badge/683232976.svg)](https://doi.org/10.5281/zenodo.14083636)
 
 ## 📢 News
 - [2024.05.31] We release the arXiv paper.
