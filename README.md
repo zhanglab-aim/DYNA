@@ -5,10 +5,7 @@
 
 ## 📢 News
 - [2024.05.31] We release the arXiv paper.
-- [2025. 04]
-<p>
-  Our paper has been published in <em>Nature Machine Intelligence</em>:
-</p>
+- [2025. 04] Our paper has been published in <em>Nature Machine Intelligence</em>:
 
 <p>
   <strong>A disease-specific language model for variant pathogenicity in cardiac and regulatory genomics</strong><br>
