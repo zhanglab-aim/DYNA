@@ -5,6 +5,31 @@
 
 ## 📢 News
 - [2024.05.31] We release the arXiv paper.
+- [2025. 04]
+<p>
+  Our paper has been published in <em>Nature Machine Intelligence</em>:
+</p>
+
+<p>
+  <strong>A disease-specific language model for variant pathogenicity in cardiac and regulatory genomics</strong><br>
+  <em>Huixin Zhan, Jason H. Moore, Zijun Zhang</em><br>
+  <em>Nature Machine Intelligence</em>, 2025, pp. 1–11<br>
+  Publisher: Nature Publishing Group UK London
+</p>
+
+<h3>📚 Citation</h3>
+
+<pre>
+@article{zhan2025disease,
+  title={A disease-specific language model for variant pathogenicity in cardiac and regulatory genomics},
+  author={Zhan, Huixin and Moore, Jason H and Zhang, Zijun},
+  journal={Nature Machine Intelligence},
+  pages={1--11},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+</pre>
+
 
 ## 📖 Introduction
 Clinical variant classification of pathogenic versus benign genetic variants remains a challenge in clinical genetics. Recently, the proposition of genomic foundation models has improved the generic variant effect prediction (VEP) accuracy via weakly-supervised or unsupervised training. However, these VEPs are not disease-specific, limiting their adaptation at the point of care. To address this problem, we propose DYNA: Disease-specificity fine-tuning via a Siamese neural network broadly applicable to all genomic foundation models for more effective variant effect predictions in disease-specific contexts.
